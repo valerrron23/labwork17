@@ -61,6 +61,14 @@ namespace TCPServer
                         {
                             message = "сирень";
                         }
+                         else if (message.IndexOf("зеленый") > -1)
+                        {
+                            message = "зелень";
+                        }
+                        else if (message.IndexOf("голубой") > -1)
+                        {
+                            message = "голубика";
+                        }
                         message = $"{userName}: {message}";
 
                         Console.WriteLine(message);
